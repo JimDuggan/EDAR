@@ -16,6 +16,8 @@ str(out)
 
 v3 <- 1:5
 
-out <- sapply(v1,function(x)x+2)
+out <- sapply(v3,function(x)x+2)
+
+out
 
 str(out)
