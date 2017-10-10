@@ -15,13 +15,12 @@ flights %>% filter(carrier %in% unlist(codes))
 # 1 (d) Departed in Summer (July, August and September)
 flights %>% filter(between(month,7,9))
 
+
 # 1 (e) Arrived more than two hours late, but did not leave late
 flights %>% filter(dep_delay < 0 & arr_delay > 120)
 
-# 1 (f) Were delayed by more than an hour, but made up over 30 mins in flight
 
-
-# 1 (g) Departed between midnight and 6AM
+# 1 (f) Departed between midnight and 6AM
 flights %>% filter(between(dep_time,0,600)) %>% arrange(dep_time)
 
 # 3 How many flights had a missing dep_time? What other vars are missing? What might these rows represent?

@@ -85,6 +85,7 @@ ggplot(data=diamonds) +
 ggplot(data=diamonds) +
   geom_bar(mapping=aes(x=cut,fill=clarity))
 
+
 ggplot(data=diamonds) +
   geom_bar(mapping=aes(x=cut,fill=clarity),
            position="fill")
@@ -135,6 +136,12 @@ ggplot(nz, aes(long,lat, group=group)) +
 ggplot(nz, aes(long,lat, group=group)) +
   geom_polygon(fill="white",colour="black") +
   coord_quickmap()
+
+ggplotly(ggplot(data=diamonds) +
+           geom_bar(mapping=aes(x=cut,fill=clarity)))
+
+p1 <- ggplot(data=diamonds) +
+           geom_bar(mapping=aes(x=cut,fill=clarity))
 
 
 
