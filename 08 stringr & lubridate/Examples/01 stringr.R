@@ -29,7 +29,7 @@ str_view(y,"a\\.c")
 
 
 x <- c("apple pie","apple","apple cake")
-str_view(x,"^apple")
+str_view(x,"^apple",match=T)
 str_view(x,"^apple$")
 
 
