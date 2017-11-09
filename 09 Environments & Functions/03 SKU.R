@@ -6,7 +6,8 @@ stock <- function(id){
        on_hand=function()on_hand,
        id=function()id,
        set_id=function(id)id<<-id,
-       get_state=function()list(id=id,on_hand=on_hand))
+       get_state=function()list(id=id,
+                                on_hand=on_hand))
 }
 
 s1 <- stock("SKU1")
