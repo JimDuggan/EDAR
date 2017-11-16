@@ -18,13 +18,16 @@ sd <- d %>% group_by(Gender) %>%
                         Number=n()
                         )
 
-ggplot(d, aes(Height, fill = Gender)) + geom_histogram(binwidth = 1)
+ggplot(d, aes(Height, fill = Gender)) + 
+  geom_histogram(binwidth = 1)
 
 ggplot(d, aes(Height)) + geom_histogram(binwidth = 1) + facet_grid(Gender ~ .)
 
-males   <- d %>% filter(Gender=="Male")   %>% select(Height) %>% pull()
+males   <- d %>% filter(Gender=="Male")   %>% 
+  select(Height) %>% pull()
 
-females <- d %>% filter(Gender=="Female") %>% select(Height) %>%pull()
+females <- d %>% filter(Gender=="Female") %>% 
+  select(Height) %>%pull()
 
 t <- t.test(males,females)
 
