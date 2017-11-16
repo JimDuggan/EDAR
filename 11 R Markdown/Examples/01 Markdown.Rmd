@@ -1,0 +1,23 @@
+---
+title: "Table Test"
+date: '`r lubridate::today()`'
+output: html_document
+---
+
+```{r}
+mtcars[1:5,1:10]
+```
+
+```{r}
+knitr::kable(
+  mtcars[1:5,1:10],
+  caption="A knitr kable"
+)
+
+```
+
+There are `r nrow(mtcars)` records in *mtcars*
+
+
+
+

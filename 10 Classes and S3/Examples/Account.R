@@ -1,7 +1,8 @@
 # account S3 example
 
 account <- function(id,bal){
-  structure(list(Id=id,bal=bal,hist=c()),class="account")
+  structure(list(Id=id,bal=bal,hist=c()),
+            class="account")
 }
 
 debit <- function(acc,amt){
@@ -27,6 +28,13 @@ debit.default <- function(acc,amt){
 
 credit.account <- function(acc, amt){
   cat("Calling credit.account method...\n")
+  acc$bal <- acc$bal + amt
+  acc$hist <- c(acc$hist,acc$bal)
+  acc
+}
+
+credit.account_1 <- function(acc, amt){
+  cat("Calling credit.account_1 method...\n")
   acc$bal <- acc$bal + amt
   acc$hist <- c(acc$hist,acc$bal)
   acc
