@@ -1,0 +1,69 @@
+Awards
+No Programme Award Assigned
+Course Stream Code: CSD1
+Mode of Delivery: Full Time
+No. of Semesters : 2
+NFQ Level: 9
+EQF Level: 7
+EHEA Level: Second Cycle
+Embedded Award: No
+Language of Instruction: English
+Valid From: 2015-16 (01-09-15 – 31-08-16)
+Discipline: Information Technology
+Location: NUIG
+ISCED: Computer Science
+Course Stream Director: MICHAEL MADDEN
+Educational Aim of Course Stream: This is an advanced programme that a provides Computing graduates with advanced knowledge and skills in the emerging growth area of Data Analytics, including topics such
+as large-scale data analytics, data visualisation, information retrieval, data mining, and web data analytics.
+Clearing House Code: 1. GYE06
+Course Stream CSD1 - MSc in Computer Science (Data Analytics) · 11 October 2015
+Semester Schedules
+Year 1 / Location: NUIG / 90 ECTS / Semester 1
+Optional
+Mod Code Module Title Co-ordinator Level ECTS
+Credits
+FT Contact
+Hours
+PT Contact
+Hours
+ST1100 Engineering Statistics (Approved) 5 0.00 0.00
+MA385 Numerical Analysis I (Approved) 8 5 3.50 0.00
+CT561 Systems Modelling and Simulation (Awaiting Processing) 8 5 2.00 0.00
+CT475 Machine Learning & Data Mining (Approved) 8 5 2.00 0.00
+ST313 Applied Regression Models (Approved) 8 5 3.33 0.00
+MA204 Discrete Mathematics (Approved) 8 5 3.00 0.00
+EE445 Digital Signal Processing (Approved) 8 5 3.33 0.00
+CT422 Modern Information Management (Approved) 8 5 2.50 0.00
+Core
+Mod Code Module Title Co-ordinator Level ECTS
+Credits
+FT Contact
+Hours
+PT Contact
+Hours
+CT5105 Tools and Techniques for Large Scale Data Analytics (Approved) 8 5 2.00 0.00
+CT5102 Programming for Data Analytics (Awaiting Processing) 8 5 6.00 0.00
+Course Stream CSD1 - MSc in Computer Science (Data Analytics) · 11 October 2015
+Year 1 / Location: NUIG / 90 ECTS / Semester 2
+Optional
+Mod Code Module Title Co-ordinator Level ECTS
+Credits
+FT Contact
+Hours
+PT Contact
+Hours
+CT5101 Natural Language Processing (Approved) 8 5 6.00 0.00
+CT5100 Data Visualisation (Approved) 8 5 2.00 0.00
+CT5107 Advanced Topics in Machine Learning and Information Retrieval (Awaiting Processing) 9 5 2.50 0.00
+EE5101 Embedded Signal Analysis and Processing (Approved) 9 5 2.67 0.00
+DER5101 Linked Data (Approved) 8 5 4.00 0.00
+CT5104 Web Mining (Approved) 8 5 6.00 0.00
+Core
+Mod Code Module Title Co-ordinator Level ECTS
+Credits
+FT Contact
+Hours
+PT Contact
+Hours
+CT5103 Case Studies in Data Analytics (Approved) 8 5 3.00 0.00
+CT5108 Data Analytics Project (Awaiting Processing) 9 30 0.00 0.00
