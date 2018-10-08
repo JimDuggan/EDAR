@@ -1,7 +1,9 @@
 ---
 title: "Table Test"
+output:
+  pdf_document: default
+  html_document: default
 date: '`r lubridate::today()`'
-output: html_document
 ---
 
 ```{r}
